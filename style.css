@@ -1,0 +1,103 @@
+body {
+  background-color:#B8E5CD;
+  color: grey;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+
+  p {
+  	text-justify: center;
+  }
+
+}
+
+h1 {
+	color:#F2853B;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing:8px;
+	font-size: 40px;
+  text-align: center;
+    }
+
+h2 {
+	color:#F191B1;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing:8px;
+	font-style: 30px;
+  text-align: center;
+    }
+
+a {
+  text-align: center;
+  color: #F2853B;
+  font-family: 'Big Shoulders Text', cursive;
+  }
+
+ #div-white {
+ 	margin:50px auto ; 
+ 	background: white ;
+ 	padding: 30px;
+ 	border-radius: 4px;
+ 	box-shadow: 0 10px 30px 
+ }
+
+ @media (max-width: 760px) {
+    .div-white {
+      width: 600px;
+    }
+ }
+
+ @media (max-width: 500px) {
+    .div-white {
+      width: 400px;
+    }
+ 
+ }
+
+ .div-blue {
+ 	margin:50px auto ; 
+ 	background: #def5f9 ;
+ 	padding: 30px;
+ 	border-radius: 4px;
+ 	box-shadow: 0 10px 30px 
+ 	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+ }
+
+
+.photo {
+  border-radius: 50%
+}
+
+.shadow {
+  box-shadow:5px 5px 3px black;
+}
+
+.text-justify {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+display: inline;
+padding: 0px 20px;
+}
+
+#bouton {
+  width: 200px;
+  margin: 40px auto;
+  background: #fef6bf;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px 
+}
+
+
+
+
+
+
